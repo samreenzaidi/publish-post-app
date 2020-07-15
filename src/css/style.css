@@ -1,0 +1,66 @@
+.w-md-editor-content{
+    height: 310px!important;
+}
+
+.w-md-editor{
+    height: 100%!important
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    color: #aaa;
+    pointer-events: none;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.fa-times{
+    right: 1rem;
+    top: 0;
+    pointer-events: all !important;
+}
+
+.container{
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+input[type='text']{
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid darkgray;
+}
+
+button{
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    background: aliceblue;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-border{
+    border: 1px solid red;
+}
